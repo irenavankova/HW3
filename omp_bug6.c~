@@ -10,7 +10,7 @@
 /******************************************************************************
 * Irena's comments
 * Bug: the code does not even compile withoout errors. The problem is in the defined scope of sum.
-* Need to define it globally outside the functions, then it compiles.
+* Need to define it globally outside the functions.
 * Also return 0 is added at the end of main to remove this message: make: *** [bug3] Error 8
 ******************************************************************************/
 

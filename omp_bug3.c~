@@ -9,7 +9,10 @@
 /******************************************************************************
 * Irena's comments
 * Bug: the code hangs up. Removing omp barrier call in print_results fixes teh problem.
-* Also return 0 is added at the end of main to remove this message: make: *** [bug3] Error 8
+* Also return 0 is added at the end of main to not have 
+*   Run time error
+* AUTHOR: Blaise Barney  01/09/04
+* LAST REVISED: 06/28/05
 ******************************************************************************/
 
 
@@ -67,7 +70,7 @@ for (i=0; i<N; i++)
   printf("Thread %d exiting...\n",tid);
 
   }  /* end of parallel section */
-  return 0;
+  //return 0;
 }
 
 

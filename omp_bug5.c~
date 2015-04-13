@@ -10,8 +10,8 @@
 /******************************************************************************
 * Irena's comments
 * Bug: the code hangs up. When N is much lower than originally N~400 everything is fine.
-* For high N using different locks in different parts of the code solves the bug,
-* flip lock a and b in the second part
+* For high N using different locks in different parts of the code solves the bug, if that is not done,
+* then the program wants to use the same lock more times at the same time.
 * Also return 0 is added at the end of main to remove this message: make: *** [bug3] Error 8
 ******************************************************************************/
 

@@ -8,7 +8,7 @@
 
 /******************************************************************************
 * Irena's comments
-* Bug: the code hangs up. Removing omp barrier call in print_results fixes teh problem.
+* Bug: the code hangs up. Removing omp barrier call in print_results fixes the problem.
 * Also return 0 is added at the end of main to remove this message: make: *** [bug3] Error 8
 ******************************************************************************/
 
